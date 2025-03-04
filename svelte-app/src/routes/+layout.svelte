@@ -28,7 +28,7 @@
 <style>
     
     header {
-        background-color: #007bff;
+        background-color: #3ca84e;
         padding: 1rem;
         text-align: center;
     }
@@ -38,7 +38,7 @@
         padding: 0;
         margin: 0;
         display: flex;
-        justify-content: center;
+        justify-content: right;
     }
     
     nav ul li {
