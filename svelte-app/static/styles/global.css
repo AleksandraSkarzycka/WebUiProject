@@ -78,3 +78,9 @@ a:hover {
     margin: 0 auto;
     padding: var(--spacing-medium);
 }
+
+#info {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
