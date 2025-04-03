@@ -5,7 +5,7 @@
         console.log("Home page loaded");
     });
 </script>
-
+<div id="background">
 <h1>About Us</h1>
 
 <div id="info">
@@ -156,18 +156,32 @@ Four new tiger themed rooms also opened in the Chessington Safari Hotel. <br> </
 <h2> 2019 </h2>
 <p id="bottom"> Room on the Broom - A Magical Journey launched as an enchanting addition to the Resort for spring 2019. The attraction brings to life yet another of author Julia Donaldson and illustrator Axel Scheffler’s  much-loved children’s stories, following in the footsteps of the Resort’s Gruffalo River Ride Adventure.Two new themed rooms also opened in the Chessington Safari Hotel. <br> </p>
 </div>
+</div>
 
 <style>
-    h1 { color: #3ca84e; }
-    h2 { color: #3ca84e; }
-    p { font-size: 18px; 
+    h1 { color: #00c721;
+        border-radius: 25px; }
+    h2 { color: #00c721;
+        text-decoration: underline; }
+    p { color: black;
+        font-size: 18px; 
         padding-left: 5%; 
         padding-right: 5%; }
     #info { margin-left: 10%;
             margin-right: 10%;
-            margin-bottom: 10%;
-            background-color: #d6dfa7; 
-            border-radius: 25px;}
+            margin-bottom: 5%;
+            background-color: rgba(214, 223, 167, 0.5); 
+            border-radius: 25px; 
+            border-style:dotted;}
     #top { padding-top: 5%; }
     #bottom { padding-bottom: 5%; }
+    #background { background-image: url('$lib/img/greenLeaf.jpg');
+                  background-size:cover;
+                  background-repeat: no-repeat;
+                  padding-top: 1%;
+                  padding-bottom: 1%;
+                  margin-bottom: 70px;
+                  border-radius: 25px;
+                  height: fit-content;
+                  width: fit-content; }
 </style>
