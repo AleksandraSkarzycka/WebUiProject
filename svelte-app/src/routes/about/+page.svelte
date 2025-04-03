@@ -172,7 +172,8 @@ Four new tiger themed rooms also opened in the Chessington Safari Hotel. <br> </
             margin-bottom: 5%;
             background-color: rgba(214, 223, 167, 0.6); 
             border-radius: 25px; 
-            border-style:dotted;}
+            border-style:dotted;
+            border-color: #00c721;}
     #top { padding-top: 5%; }
     #bottom { padding-bottom: 5%; }
     #background { background-image: url('$lib/img/greenLeaf.jpg');
