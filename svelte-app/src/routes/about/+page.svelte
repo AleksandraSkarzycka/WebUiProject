@@ -9,7 +9,7 @@
 <h1>About Us</h1>
 
 <div id="info">
-<p>Chessington World of Adventures Resort now offers a theme park with magical rides and attractions a Zoo and SEALIFE centre with over 1000 animals, 
+<p id="top">Chessington World of Adventures Resort now offers a theme park with magical rides and attractions a Zoo and SEALIFE centre with over 1000 animals, 
 and an onsite Resort Hotel with 150 bedrooms. However Chessington has not always offered this, explore our history and find out how the Chessington 
 you see today has changed over the years.</p>
 
@@ -154,10 +154,20 @@ The project took eighteen months of meticulous planning and preparation to ensur
 Four new tiger themed rooms also opened in the Chessington Safari Hotel. <br> </p>
 
 <h2> 2019 </h2>
-<p> Room on the Broom - A Magical Journey launched as an enchanting addition to the Resort for spring 2019. The attraction brings to life yet another of author Julia Donaldson and illustrator Axel Scheffler’s  much-loved children’s stories, following in the footsteps of the Resort’s Gruffalo River Ride Adventure.Two new themed rooms also opened in the Chessington Safari Hotel. <br> </p>
+<p id="bottom"> Room on the Broom - A Magical Journey launched as an enchanting addition to the Resort for spring 2019. The attraction brings to life yet another of author Julia Donaldson and illustrator Axel Scheffler’s  much-loved children’s stories, following in the footsteps of the Resort’s Gruffalo River Ride Adventure.Two new themed rooms also opened in the Chessington Safari Hotel. <br> </p>
 </div>
 
 <style>
-    h1 { color: #007bff; }
-    p { font-size: 18px; }
+    h1 { color: #3ca84e; }
+    h2 { color: #3ca84e; }
+    p { font-size: 18px; 
+        padding-left: 5%; 
+        padding-right: 5%; }
+    #info { margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            background-color: #d6dfa7; 
+            border-radius: 25px;}
+    #top { padding-top: 5%; }
+    #bottom { padding-bottom: 5%; }
 </style>
