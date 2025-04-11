@@ -30,7 +30,7 @@ Visit our FAQ page for commonly asked questions:</p>
             border-style:dotted;
             border-color: #00c721; 
             height: 600px;
-        align-content: center; }
+            align-content: center; }
     #background { background-image: url('$lib/img/greenLeaf.jpg');
                   background-size:300%;
                   background-repeat: no-repeat;
