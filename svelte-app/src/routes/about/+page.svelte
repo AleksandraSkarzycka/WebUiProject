@@ -5,6 +5,7 @@
         console.log("Home page loaded");
     });
 </script>
+
 <div id="background">
 <h1>About Us</h1>
 
