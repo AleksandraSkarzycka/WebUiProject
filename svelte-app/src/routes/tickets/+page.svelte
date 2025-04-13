@@ -1,6 +1,14 @@
 <script>
     import { onMount } from 'svelte';
     import rollercoaster from '$lib/img/rollercoaster1.jpg';
+    import rollercoaster2 from '$lib/img/rollercoaster2.jpg';
+    import rollercoaster3 from '$lib/img/rollercoaster3.jpg';
+    import rollercoaster4 from '$lib/img/rollercoaster4.jpg';
+    import rollercoaster5 from '$lib/img/rollercoaster5.jpg';
+    import rollercoaster6 from '$lib/img/rollercoaster6.jpg';
+    import rollercoaster7 from '$lib/img/rollercoaster7.jpg';
+    import chessington from '$lib/img/chessington1.jpg';
+    import chessington2 from '$lib/img/chessington2.jpg';
 
     onMount(() => {
         console.log("Ticket page loaded");
@@ -20,49 +28,49 @@
         name: "1 Day Pass",
         price: 29,
         description: "Includes entry to Theme Park & Zoo. Save up to €37 when you book in advance. Under 90cms visit free!",
-        image: rollercoaster
+        image: rollercoaster2
         },
         {
         name: "Chessington Annual Pass",
         price: 60,
         description: "Spend a day at the park! Includes entry to Theme Park & Zoo!",
-        image: rollercoaster
+        image: rollercoaster3
         },
         {
         name: "Adult and Preschooler Pass",
         price: 30,
         description: "Includes entry to Theme Park and Zoo! Mid-week, term time only. Valid for 1 child aged 4 years or under any any accompanying adult. Under 90cms visit free!",
-        image: rollercoaster
+        image: rollercoaster4
         },
         {
         name: "Adult and Preschooler Annual Pass",
         price: 55,
         description: "Mid-week term time entry to Chessington World of Adventures Resort*. 10% off in retail shops. 20% off food & beverage. Valid for 1 child aged 4 years or under any any accompanying adult.",
-        image: rollercoaster
+        image: chessington
         },
         {
         name: "Overnight Stays",
         price: 32,
         description: "A Delicious Breakfast. Themed & Standard Rooms. Early Ride Access. Free Parking. Hotel Entertainment",
-        image: rollercoaster
+        image: rollercoaster5
         },
         {
         name: "10-30 Groups",
         price: 32,
         description: "Book for your tribe to visit Britain’s Wildest Adventure this year! Discover magical rides and attractions and over 1000 animals in our ZOO and SEA LIFE Centre.",
-        image: rollercoaster
+        image: rollercoaster6
         },
         {
         name: "31-100 Groups",
         price: 32,
         description: "Save when you come on a wild adventure to Chessington as a group of 31-100. With magical rides and attractions, plus our Zoo and SEA LIFE centre, there’s so much to explore.",
-        image: rollercoaster
+        image: rollercoaster7
         },
         {
         name: "Exclusive Student Discount",
         price: 20,
         description: "Get discounted entry to Britain’s Wildest Adventure with Student Beans. Discover magical rides and attractions from Vampire and Dragon’s Fury to the jaw-dropping Croc Drop, there’s something for those daring or those looking for light thrills! Plus, don’t miss the chance to come face-to-face with over 1,000 animals and underwater creatures in our Zoo and SEA LIFE too.",
-        image: rollercoaster
+        image: chessington2
         }
     ];
 
@@ -90,7 +98,9 @@
                 <h1>{pass.name}</h1>
                 <p class="price">€{pass.price}</p>
                 <p>{pass.description}</p>
-                <p><button>Add to Cart</button></p>
+                <div style="margin-top: auto;">
+                    <button>Add to Cart</button>
+                </div>
             </div>
             {/each}
         </div>
@@ -127,13 +137,18 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
-    max-width: 300px;
-    max-height: 100vh;
+    width: 300px; /* Set fixed width */
+    min-height:600px;
     margin: 1%;
     text-align: center;
     font-family: arial;
+    padding: 16px;
 }
 
 .price {
