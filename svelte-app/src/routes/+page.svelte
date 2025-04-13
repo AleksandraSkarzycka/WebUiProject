@@ -6,10 +6,11 @@
     });
 </script>
 
-<h1>Welcome to SvelteKit</h1>
-<p>Homepage of the SvelteKit application</p>
+<h1>Web UI Project</h1>
+<p>Tickets page is dynamic <br>
+About and Contact are static</p>
 
 <style>
-    h1 { color: #007bff; }
+    h1 { color: #00c721; }
     p { font-size: 18px; }
 </style>
